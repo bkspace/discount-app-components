@@ -85,11 +85,13 @@ export function MethodCard({
               {getDiscountClassLabel(discountClass, i18n)}
             </Text>
           </HorizontalStack>
-
-          <Text variant="headingMd" as="h2">
-            {!discountMethodHidden &&
-              i18n.translate('DiscountAppComponents.MethodCard.methodSubtitle')}
-          </Text>
+          {!discountMethodHidden && (
+            <Text variant="headingMd" as="h2">
+              {i18n.translate(
+                'DiscountAppComponents.MethodCard.methodSubtitle',
+              )}
+            </Text>
+          )}
           <VerticalStack gap="4">
             {!discountMethodHidden && (
               <ChoiceList
