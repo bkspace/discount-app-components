@@ -2816,7 +2816,7 @@
     fs-extra "^9.0.0"
     glob "^7.1.6"
 
-"@shopify/polaris-icons@^7.1.0", "@shopify/polaris-icons@^7.9.0":
+"@shopify/polaris-icons@^7.9.0":
   version "7.9.0"
   resolved "https://registry.yarnpkg.com/@shopify/polaris-icons/-/polaris-icons-7.9.0.tgz#2c7ec5b5cf2d68c6252bf9992c4604a2def596c3"
   integrity sha512-JSn8tg5c6cWiKqOJE1757kuK8JKP9NGpwIp9Li2gEIA/PP4LL8RHMYOIuH3RS/yQO3pEhVsHnnlVFvREate8ng==
